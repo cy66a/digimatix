@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- AOS library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Digimatix">
+    <link rel="shortcut icon" href="assets/images/icons/favicon.ico" type="image/x-icon">
+    
+    <title>Digimatix | Sergey Subbotin</title></head>
+
+<body>
+
+    <!-- Уведомления об устаревшем браузере -->
+
+    <script type="text/javascript" src="https://static.yandex.net/browser-updater/v1/script.js" charset="utf-8">
+    </script>
+    
+    <script>
+        var browserUpdater = new ya.browserUpdater.init({
+            theme: "yellow",
+            lang: "ru",
+            exclusive: false,
+            browsers: {
+                chromium: 35,
+                iron: 35,
+                flock: "Infinity",
+                palemoon: 25,
+                camino: "Infinity",
+                safari: 5.2,
+                yandexinternet: "Infinity",
+                fx: 31,
+                ie: 9,
+                opera: 16,
+                chrome: 35,
+                maxthon: 4.4,
+                seamonkey: 2.4
+            },
+            remember: true,
+            rememberFor: 30,
+            cookiePrefix: "yaBrowserUpdater",
+            classNamePrefix: "ya-browser-updater",
+            jsonpCallback: "yaBrowserUpdaterJSONPCallback",
+            onStripeShow: null,
+            onStripeHide: null
+        });
+    </script>
+
+    <!-- Подключение блоков кода -->
+
+    <header class="header">
+    	<div class="container">
+    		<nav class="nav">
+    			<div class="nav__logo">
+    				<a href="https://digimatix.ru/">
+    					<img src="assets/images/icons/logo.png" alt="Digimatix лого">
+    				</a>
+    			</div>
+    			<a class="button button__order" href="#footer">Закажите ваш билет</a>
+    		</nav>
+    		<div class="header__inner">
+    			<div class="header__left">
+    				<h1 class="header__main-title">
+    					До луны и обратно
+    				</h1>
+    				<p class="header__text">
+    					Задача организации, в особенности же курс на социально-ориентированный национальный проект
+    					позволяет оценить значение модели развития.
+    				</p>
+    				<div class="header__more">
+    					<a class="button button__more" href="#footer">
+    						Подробнее о нас
+    					</a>
+    					<a class="button button__play" href="#footer">
+    					</a>
+    				</div>
+    			</div>
+    			<div class="header__right">
+    				<img src="assets/images/moon.png" alt="Луна" data-aos="zoom-in" data-aos-delay="300">
+    			</div>
+    		</div>
+    	</div>
+    </header>
+    
+    <section class="slider">
+    	<div class="container">
+    		<h2 class="slider__title">Вы с нами?</h2>
+    
+    		<div class="slider__inner">
+    			<div class="slider__panel">
+    				<ul class="tabs">
+    					<li class="tabs__item active" data-tab="#hot">Горящие предложения</li>
+    					<li class="tabs__item" data-tab="#all">Все предложения</li>
+    				</ul>
+    				<div class="slider__navigation">
+    
+    					<!-- If we need navigation buttons -->
+    					<div class="prev">
+    						<img src="assets/images/icons/prev.png" alt="Назад">
+    					</div>
+    					<div class="next">
+    						<img src="assets/images/icons/next.png" alt="Вперед">
+    					</div>
+    				</div>
+    			</div> <!-- /.slider__panel-->
+    
+    			<div class="menu__sliders">
+    
+    				<!-- slider hot -->
+    				<div class="menu__slider-block show" id="hot">
+    
+    					<div class="swiper menu__slider hot">
+    
+    						<!-- Additional required wrapper -->
+    						<div class="swiper-wrapper">
+    
+    							<!-- Slides -->
+    							<div class="swiper-slide ">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-1.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    							<div class="swiper-slide">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-2.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    							<div class="swiper-slide">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-3.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    							<div class="swiper-slide">
+    
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-4.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    
+    							</div>
+    
+    							<div class="swiper-slide">
+    
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-2.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    
+    							</div>
+    
+    							<div class="swiper-slide">
+    
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-2.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    
+    							</div>
+    						</div>
+    
+    						<div class="swiper-pagination menu__pagination"></div>
+    					</div>
+    				</div>
+    				<!-- /.slider hot -->
+    
+    				<!-- slider all -->
+    				<div class="menu__slider-block" id="all">
+    
+    					<div class="swiper menu__slider all">
+    
+    						<!-- Additional required wrapper -->
+    						<div class="swiper-wrapper">
+    
+    							<!-- Slides -->
+    							<div class="swiper-slide ">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-1.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    							<div class="swiper-slide">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-1.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    							<div class="swiper-slide">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-2.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    							<div class="swiper-slide">
+    
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-2.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    
+    							</div>
+    
+    							<div class="swiper-slide">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-3.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    							<div class="swiper-slide">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-3.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    							<div class="swiper-slide">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-4.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    							<div class="swiper-slide">
+    								<div class="slide__wrapper">
+    									<div class="slide__image">
+    										<img src="assets/images/slider/slide-4.png" alt="Слайд">
+    									</div>
+    									<h3 class="slide__sub-title">
+    										Включено почти всё
+    									</h3>
+    									<p class="slide__text">
+    										Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности.
+    									</p>
+    								</div>
+    							</div>
+    
+    						</div>
+    
+    						<div class="swiper-pagination menu__pagination"></div>
+    					</div>
+    				</div>
+    				<!-- /.slider all -->
+    
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <footer class="footer" id="footer">
+    	<div class="container">
+    		<div class="footer__inner">
+    			<h2 class="footer__title">Остались вопросы?</h2>
+    			<p class="footer__text">
+    				Задача организации, в особенности же курс на социально-ориентированный национальный проект позволяет
+    				оценить значение модели развития.
+    			</p>
+    
+    			<form class="form" method="POST">
+    				<div class="form__group">
+    				<fieldset class="fieldset">
+    					<legend class="legend ">Имя</legend>
+    					<input class="input" type="name" name="user_name" autocomplete="off" required
+    						placeholder="Иванов Илья" maxlength="30">
+    				</fieldset>
+    			</div>
+    
+    				<div class="form__group">
+    				<fieldset class="fieldset">
+    					<legend class="legend">Телефон</legend>
+    					<input class="input" type="phone" name="user_phone" autocomplete="off" required
+    						placeholder="+7 ( 9 9 9 ) 9 9 9 - 9 9 - 9 9" maxlength="12">
+    				</fieldset>
+    			</div>
+    
+    				<div class="form__group">
+    				<input class="input input--email" type="email" name="user_email" autocomplete="off" required
+    					placeholder="Email" maxlength="30">
+    				</div>
+    
+    				<div class="form__group">
+    					<button class="button-submit">
+    						Отправить
+    					</button>
+    				</div>
+    
+    			</form>
+    		</div>
+    	</div>
+    	<div class="footer__logo">
+    		<img src="assets/images/icons/logo.png" alt="Логотип">
+    	</div>
+    </footer>
+    <!-- Подключение script'ов -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">
+    </script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
